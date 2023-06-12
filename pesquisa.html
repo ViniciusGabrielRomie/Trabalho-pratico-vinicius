@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Consumindo API-TPII</title>
+  <link rel="stylesheet" href="pesquisa.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Trabalho Prático</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pesquisa.html">Pesquisa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Carrinho</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="search-container">
+    <input class="barraPesquisa" type="text" id="searchInput" placeholder="Pesquisa do produto">
+  </div>
+
+  <div class="container">
+    <div class="product-grid" id="productList">
+      <!-- Os produtos serão adicionados dinamicamente aqui -->
+    </div>
+  </div>
+
+
+  <script src="pesquisa.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <div class="teste">
+
+
+    <div class="container p-4 final">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">MÉTODOS DE PAGAMENTO</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <img class="logopagamento" src="img/cartao.png" alt="">
+            </li>
+            <li>
+              <img class="logopagamento" src="img/dinheiro.png" alt="">
+            </li>
+            <li>
+              <img class="logopagamento" src="img/visa.png" alt="">
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Redes Sociais</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <img class="logo" src="img/facebook.png" alt="">
+              <a href="#!">Facebook</a>
+            </li>
+            <li>
+              <img class="logo" src="img/instagram.png" alt="">
+              <a href="#!">Instagram</a>
+            </li>
+            <li>
+              <img class="logo" src="img/twitter.png" alt="">
+              <a href="#!">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links Úteis</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!">Política de Privacidade</a>
+            </li>
+            <li>
+              <a href="#!">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="#!">Sobre Nós</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contato</h5>
+          <p>
+            Vinicius Gabriel Romie Vieira<br />
+            PUC-Minas -> Engenharia de Software<br />
+            Matrícula:813106
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
